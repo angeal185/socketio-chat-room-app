@@ -1,0 +1,17 @@
+{
+  "name": "socketio-chat-room-app",
+  "version": "1.0.0",
+  "description": "nodejs chat-room app using socketio express jquery and lodash",
+  "main": "admin/bin/socketio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs","socketio","lodash","jquery"],
+  "author": "ben eaves",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "nunjucks": "^3.1.3",
+    "socketio": "^1.0.0"
+  }
+}

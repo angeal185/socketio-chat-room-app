@@ -1,0 +1,30 @@
+{% extends 'layout.njk' %}
+{% block content %}
+<div class="row">
+  <div id="chat" class="col s6 push-s3">
+    <h3>Chat</h3>
+    <label id="infoLabel">Username</label>
+    <input type="text" id="name" placeholder="Enter your name!">
+    <button type="button" id="setUser" class="btn">Let me chat!</button>
+  </div>
+  <div id="users" class="col s3">
+    <h3>Users online</h3>
+    <div id="userList"></div>
+  </div>
+  <input type="text" id="details" hidden>
+
+  <div id="pmModal" class="modal">
+    <div class="modal-content">
+      <h4 id="pmModalTitle">Private messages</h4>
+      <div id="pmBox"></div>
+      <input type="text" id="pmInput" placeholder="Type msg here...">
+      <input type="text" id="pmDetails" hidden>
+    </div>
+    <div class="modal-footer">
+      <button type="button" id="pmBtn" class="btn left">Send</button>
+      <button type="button" id="pmcloseBtn" data-target="pmModal" class="btn modal-close right">close</button>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

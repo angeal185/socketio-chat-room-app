@@ -1,0 +1,5 @@
+{
+  "port":"3000",
+  "styles": ["materialize.min","styles"],
+  "scripts": ["lodash.min", "jquery.min","materialize.min","admin"]
+}
